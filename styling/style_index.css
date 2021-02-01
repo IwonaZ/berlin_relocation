@@ -1,0 +1,46 @@
+.jumbotron-fluid{
+    background-color: #f4acb7;
+}
+
+body{
+    background-color:#ffcad4;
+}
+
+nav{
+    background-color: #f4acb7;
+}
+h1{
+    font-family: 'Noto Serif', serif;
+    font-size: 50px;
+    color: #723d46;
+}
+
+h2{
+    font-family: 'Noto Serif', serif;
+    font-weight: 700px;
+    padding-bottom: 20px;
+    padding-top: 2em;
+}
+#berlin_intro{
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+}
+
+.container.blockquote{
+    font-size: 14px;
+    text-align: right;
+    padding: 4;
+    margin-bottom: 5em;
+}
+
+#contact-info{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: font-family: 'Roboto', sans-serif;
+    padding: 5;
+}
+
+hr{
+    color:#540b0e;
+}
