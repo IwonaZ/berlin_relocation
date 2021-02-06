@@ -1,5 +1,6 @@
 .jumbotron-fluid{
     background-color: #f4acb7;
+    margin-top: 0;
 }
 
 body{
@@ -44,3 +45,18 @@ h2{
 hr{
     color:#540b0e;
 }
+
+#costsintro{
+    background-color: #f4acb7;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+#intropic {
+    height: 300px;
+    width: 400px;
+}
+#paperworkintro{
+    background-color: #f4acb7;
+    padding-top: 5%;
+    padding-bottom: 5%;
