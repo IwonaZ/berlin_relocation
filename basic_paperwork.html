@@ -4,135 +4,144 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Basic paperwork to do when you relocate to Germany</title>
+    <!-- This is a link to Bootstrap-->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Noto+Serif:wght@400;700&family=Roboto&display=swap" rel="stylesheet">    
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
+    <!-- This is Google Font-->
+    <link href="https://fonts.googleapis.com/css?family=Nunito:200,300,400,700" rel="stylesheet">
+    <!--This is Font Awesome-->
+    <script src="https://kit.fontawesome.com/b4c9732bdc.js" crossorigin="anonymous"></script>
+    <!-- This is my css-->
     <link href="styling/style_index.css" rel="stylesheet" type="text/css">
 </head>
 
 <body>
-    <div class="jumbotron-fluid" id="paperworkintro">
-        <div class="container">
-            <h1 class="text-center m-4">Paperwork - the first things you should do after you arrive to Berlin.</h1>
-        </div>
-    </div> 
+  <nav id="mainNavbar" class="navbar navbar-dark navbar-expand-md py-0 fixed-top">
+    <a href="#" class="navbar-brand">Berlin</a>
+    <button class="navbar-toggler" data-toggle="collapse" data-target="#navLinks" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navLinks">
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a href="index.html" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item">
+                <a href="costs_of_living.html" class="nav-link">Costs of living</a>
+            </li>
+            <li class="nav-item">
+                <a href="basic_paperwork.html" class="nav-link">Paperwork</a>
+            </li>
+            <li class="nav-item">
+                <a href="finding_apartment.html" class="nav-link">Finding apartment</a>
+            </li>
+            <li class="nav-item">
+                <a href="public_transport.html" class="nav-link">Public transportation</a>
+            </li>
+            <li class="nav-item">
+                <a href="school_system.html" class="nav-link">School System</a>
+            </li>
+            <li class="nav-item">
+                <a href="culture.html" class="nav-link">Life in Berlin</a>
+            </li>
+        </ul>
+    </div>
+  </nav>
 
-    <nav class="navbar navbar-expand-lg navbar-light sticky-top">
-        <a class="navbar-brand" href="index.html">Home</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav">
-              <a class="nav-link" href="costs_of_living.html">Costs of Living</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="basic_paperwork.html">Paperwork</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="finding_apartment.html">Finding apartment</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="public_transport.html">Public transport</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="school_system.html">School system</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="culture.html">Life in Berlin</a>
-              </li>
-          </ul>
+  <section class="container-fluid">
+    <div class="row align-items-center px-0 pt-5">
+      <div class = "col-lg-12">
+        <div id="headingGroup" class="text-light text-center mt-5">
+          <h1>Paperwork - first steps</h1>
         </div>
-      </nav>
-      <main>
-        <div class=" p-4 text-center container">
-            <p id="paperwork_intro"> Arriving to Germany might feel overwhelming at first. The amount of paperwork you need to do is quite impressive, but German bureaucracy is manageable, you just need the right resources and support. Below is the list of the first steps that you might need to do in order to have a great start in your new life in Berlin.
-            </p>
-        </div>
-      </main>
+      </div>
+    </div>
+  </section>
 
-      <section class="container-fluid">
-       
-        <div class="row align-items-center">
-          <div class="col-lg-6">
-            <img class="image-fluid" src="images/passport.jpeg" alt="">
-          </div>
-          <div class=" text-center col-6">
-            <h3>Visa</h3>
-            <p>Visa  in needed for entering Germany in many cases. You can apply for it thourough German embassy in your own country, but keep in mind  the application process can take approximately two to three months. All information on visa requirements
+  <section class="container-fluid px-0">
+    <div class="row align-items-center content">
+      <div class="col-md-6 order-2 order-md-1">
+        <img src="images/passport1.jpeg" alt="some passports" class="img-fluid pl-0 pl-md-5" id="imgPaperwork">
+      </div>
+      <div class="col-md-6 text-center order-1 order-md-2">
+        <div class="row justify-content-center">
+          <div class="col-10 col-lg-8 part mb-5 mb-md-0">
+            <h2>Visa</h2>
+            <p class="lead">Visa  in needed for entering Germany in many cases. You can apply for it thourough German embassy in your own country, but keep in mind that the application process can take approximately two to three months. All information on visa requirements
               can be found on the website of the <a href="https://www.auswaertiges-amt.de/en" target="_blank">German
-              Foreign Affairs Office </a>.
-              </p>
-              <p>If you are from the Member Statesof the European Union (EU), Switzerland, Iceland, Norway and Liechtenstein, you can enter Germany with just a valid passport or ID card. 
-              </p>
+              Foreign Affairs Office</a>. 
+            </p>
           </div>
         </div>
-
-        <div class="row align-items-center">
-          <div class="col-lg-6">
-            <img class="image-fluid" src="images/anmeldung.jpeg" alt="">
-          </div>
-          <div class=" text-center col-6">
-            <h3>Registration</h3>
-            <p>You have to register with the Residents’ Registration Office (Bürgeramt) within 2 weeks of the arrival date in Germany. Registration offices in Berlin are really busy, so it's usually not a problem if you register a bit later.
-              </p>
-              <p>Which Bürgeramt will be responsible for your registration depends on in which district of Berlin you are living. Find out where the Bürgeramt of your district is located on <a href="https://www.berlin.de/en" target="_blank">Berlin’s official website</a>. 
-              </p>
+      </div>
+    </div>
+    <div class="row align-items-center content">
+      <div class="col-md-6 text-center">
+        <div class="row justify-content-center">
+          <div class="col-10 col-lg-8 part mb-5 mb-md-0">
+            <h2>Registration</h2>
+            <p class="lead">You have to register with the Residents’ Registration Office (Bürgeramt) within 2 weeks of the arrival date in Germany. Registration offices in Berlin are really busy, so it's usually not a problem if you register a bit later. <br> Which Bürgeramt will be responsible for your registration depends on in which district of Berlin you are living. Find out where the Bürgeramt of your district is located on <a href="https://www.berlin.de/en" target="_blank">Berlin’s official website.</a>
+            </p>
           </div>
         </div>
-
-        <div class="row align-items-center">
-          <div class="col-lg-6">
-            <img class="image-fluid" src="images/tax_nr.jpeg" alt="">
-          </div>
-          <div class=" text-center col-6">
-            <h3>Tax ID</h3>
-            <p>The Tax ID (Steueridentifikationsnummer) is an 11 digit number issued by the German Federal Tax Office that identifies you. This number is unique and will serve you for the whole duration of your time in Germany.
-              </p>
-              <p>The Tax  Office will send you the the tax ID automatically to your registered address withing 4 weeks after your registration at Bürgeramt. 
-          </p>
-          <p>
-            If you want to work in Germany, you need to provide this number to your employer, otherwise the maximum tax rate will be deducted from your income.
-          </p>
-          </div>
-        </div>
-
-        <div class="row align-items-center">
-          <div class="col-lg-6">
-            <img class="image-fluid" src="images/bank_account.jpeg" alt="">
-          </div>
-          <div class="text-center col-6">
-            <h3>Bank Account</h3>
-            <p>Your salary must be transferred by your employer into a German bank account. You can choose whatever bank you like.
-              </p>
-              <p>Some of the big traditional banks in Germany include <a href="https://www.deutsche-bank.de/pk.html" target="_blank">Deutsche Bank</a>, <a href="https://www.berliner-sparkasse.de/de/home.html" target="_blank">Sparkasse</a>, <a href="https://www.postbank.de/" target="_blank">Postbank</a>, <a href="https://www.commerzbank.de/" target="_blank">Commerzbank</a>, <a href="https://www.dkb.de/" target="_blank">Deutsche Kreditbank</a>, and <a href="https://www.berliner-volksbank.de/homepage.html" target="_blank">Berliner Volksbank</a>.
-              </p>
-              <p>Online banks without physical offices include <a href="https://n26.com/en-de" target="_blank">N26</a>, <a href="https://www.dkb.de/" target="_blank">DKB</a>, and <a href="https://www.ing.de/" target="_blank">ING-DiBa</a>. 
-              </p>
+      </div>
+      <div class="class=col-md-6">
+        <img src="images/anmeldung.jpeg" alt="some random papers" class="img-fluid" id="imgPaperwork">
+      </div>
+    </div>
+    <div class="row align-items-center content">
+      <div class="col-md-6 order-2 order-md-1">
+        <img src="images/tax1.jpeg" alt="" class="img-fluid pl-0 pl-md-5" id="imgPaperwork">
+      </div>
+      <div class="col-md-6 text-center order-1 order-md-2">
+        <div class="row justify-content-center">
+          <div class="col-10 col-lg-8 part mb-5 mb-md-0">
+            <h2>Tax ID</h2>
+            <p class="lead">The Tax ID (Steueridentifikationsnummer) is an 11 digit number issued by the German Federal Tax Office that identifies you. This number is unique and will serve you for the whole duration of your time in Germany. <br>
+              The Tax  Office will send you the the tax ID automatically to your registered address withing 4 weeks after your registration at Bürgeramt. <br>
+            </p>
           </div>
         </div>
-
-        <div class="row align-items-center">
-          <div class="col-lg-6">
-            <img class="image-fluid" src="images/health.jpeg" alt="">
-          </div>
-          <div class="text-center col-6">
-            <h3>Health Insurance</h3>
-            <p>Health insurance is mandatory for everyone in Germany. You can choose whatever insurance you like (either statutory health insurance or private health insurance) and register online easily. Your membership certificate will be sent to you via post. <a href ="https://allaboutberlin.com/guides/german-health-insurance" target = "_blank">Here are more details on how to choose German health insurance</a>.
-              </p>
+      </div>
+    </div>
+    <div class="row align-items-center content">
+      <div class="col-md-6 text-center">
+        <div class="row justify-content-center">
+          <div class="col-10 col-lg-8 part mb-5 mb-md-0">
+            <h2>Bank Account</h2>
+            <p class="lead">Your salary must be transferred by your employer into a German bank account. You can choose whatever bank you like. <br>
+            Some of the big traditional banks in Germany include <a href="https://www.deutsche-bank.de/pk.html" target="_blank">Deutsche Bank</a>, <a href="https://www.berliner-sparkasse.de/de/home.html" target="_blank">Sparkasse</a>, <a href="https://www.postbank.de/" target="_blank">Postbank</a>, <a href="https://www.commerzbank.de/" target="_blank">Commerzbank</a>, <a href="https://www.dkb.de/" target="_blank">Deutsche Kreditbank</a>, and <a href="https://www.berliner-volksbank.de/homepage.html" target="_blank">Berliner Volksbank</a>.
+            <br>
+            Online banks without physical offices include <a href="https://n26.com/en-de" target="_blank">N26</a>, <a href="https://www.dkb.de/" target="_blank">DKB</a>, and <a href="https://www.ing.de/" target="_blank">ING-DiBa</a>. 
+            </p>
           </div>
         </div>
-
-        <div class="row align-items-center">
-          <div class="col-lg-6">
-            <img class="image-fluid" src="images/insurance.jpeg" alt="">
+      </div>
+      <div class="class=col-md-6">
+        <img src="images/bank_account.jpeg" alt="" class="img-fluid" id="imgPaperwork">
+      </div>
+    </div>
+    <div class="row align-items-center content">
+      <div class="col-md-6 order-2 order-md-1">
+        <img src="images/health.jpeg" alt="" class="img-fluid pl-0 pl-md-5" id="imgPaperwork">
+      </div>
+      <div class="col-md-6 text-center order-1 order-md-2">
+        <div class="row justify-content-center">
+          <div class="col-10 col-lg-8 part mb-5 mb-md-0">
+            <h2>Health Insurance</h2>
+            <p class="lead">
+              Health insurance is mandatory for everyone in Germany. You can choose whatever insurance you like (either statutory health insurance or private health insurance) and register online easily. Your membership certificate will be sent to you via post. <a href ="https://allaboutberlin.com/guides/german-health-insurance" target = "_blank">Here are more details on how to choose German health insurance</a>.
+            </p>
           </div>
-          <div class="text-center col-6">
-            <h3>Other Insurances</h3>
-            <p>To insure yourself against different risks, you should purchase an insurance policy. The most popular kinds of insurances in Germany are:
-              <ul>
+        </div>
+      </div>
+    </div>
+    <div class="row align-items-center content">
+      <div class="col-md-6 text-center">
+        <div class="row justify-content-center">
+          <div class="col-10 col-lg-8 part mb-5 mb-md-0">
+            <h2>Other Insurances</h2>
+            <p class="lead">To insure yourself against different risks, you should purchase an insurance policy. The most popular kinds of insurances in Germany are:
+              <ul class="part">
                 <li>Liability Insurance (Haftpflichtversicherung)</li>
                 <li>Motor Vehicle Insurance (Kfz-Versicherung)</li>
                 <li>Household Insurance (Hausratversicherung)</li>
@@ -142,16 +151,38 @@
                 <li>Pet health insurance (Tierkrankenversicherung)</li>
                 <li>Travel Insurance (Reiseversicherung)</li>
               </ul>
-              </p>
+            </p>
           </div>
         </div>
-
-      </section>
-      <hr>
-    <footer>
+      </div>
+      <div class="class=col-md-6">
+        <img src="images/insurance.jpeg" alt="" class="img-fluid" id="imgPaperwork">
+      </div>
+    </div>
+  </section>
+  
+  <hr>
+    
+  <footer>
         <div id="contact-info">Contact</div>
-        <a href="#" class="fa fa-envelope"></a>
-        <a href="#" class="fa fa-instagram"></a>
-      </footer>
+        <div class="icon">
+          <a href="mailto:iwona.zdzieblo@gmail.com" target="_blank"><i class="fas fa-envelope center px-2"></i></a>
+          <a href="https://www.instagram.com/inka_z89/" target="_blank"><i class="fab fa-instagram center px-2"></i></a>
+        </div>
+  </footer>
+      <!-- Optional JavaScript from Bootstrap-->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+<!-- javaScript to make the navbar change color when scrolling-->
+    <script>
+      $(function () {
+          $(document).scroll(function () {
+              var $nav = $("#mainNavbar");
+              $nav.toggleClass("scrolled", $(this).scrollTop() > $nav.height());
+          });
+      });
+  </script>
+
 </body>
 </html>
