@@ -31,7 +31,7 @@ body {
     color: #97596e;
     font-weight: 100;
     font-size: 1.2rem;
-    line-height: 1.5;
+    line-height: 1.8;
  }
 
  .content {
@@ -46,6 +46,12 @@ body {
     line-height: 1.5;
  }
 
+ .btn a:hover {
+    border: 1.5px solid red;
+    border-radius: 5px;
+    background-color:#f5d9d5;
+ }
+
  a {
      color: #ac4fdf;
      text-decoration: none;
@@ -54,6 +60,10 @@ body {
     color: #fd3a69;
     background-color: #fbbedf;
     text-decoration: none;
+  }
+
+  ul {
+    list-style-type: none;
   }
 
 #mainNavbar {
@@ -65,6 +75,7 @@ body {
 }
 #mainNavbar .nav-link:hover {
     color: #EA1C2C;
+    background-color:transparent;
 }
 #mainNavbar .navbar-brand {
     color: #EA1C2C;

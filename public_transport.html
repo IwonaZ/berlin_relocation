@@ -1,57 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
-        <link rel="preconnect" href="https://fonts.gstatic.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com">
-        <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Noto+Serif:wght@400;700&family=Roboto&display=swap" rel="stylesheet">    
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
-        <link href="styling/style_index.css" rel="stylesheet" type="text/css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Public transportation in Berlin</title>
-</head>
+    <!-- This is a link to Bootstrap-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <!-- This is Google Font-->
+    <link href="https://fonts.googleapis.com/css?family=Nunito:200,300,400,700" rel="stylesheet">
+    <!--This is Font Awesome-->
+    <script src="https://kit.fontawesome.com/b4c9732bdc.js" crossorigin="anonymous"></script>
+    <!-- This is my css-->
+    <link href="styling/style_index.css" rel="stylesheet" type="text/css">
+  </head>
 <body>
-    <div class="jumbotron-fluid">
-        <div class="container">
-            <h1 class="text-center m-4">Public transportation in Berlin.</h1>
-        </div>
-    </div> 
+  <nav id="mainNavbar" class="navbar navbar-dark navbar-expand-md py-0 fixed-top">
+    <a href="#" class="navbar-brand">Berlin</a>
+    <button class="navbar-toggler" data-toggle="collapse" data-target="#navLinks" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navLinks">
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a href="index.html" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item">
+                <a href="costs_of_living.html" class="nav-link">Costs of living</a>
+            </li>
+            <li class="nav-item">
+                <a href="basic_paperwork.html" class="nav-link">Paperwork</a>
+            </li>
+            <li class="nav-item">
+                <a href="finding_apartment.html" class="nav-link">Finding apartment</a>
+            </li>
+            <li class="nav-item">
+                <a href="public_transport.html" class="nav-link">Public transportation</a>
+            </li>
+            <li class="nav-item">
+                <a href="school_system.html" class="nav-link">School System</a>
+            </li>
+            <li class="nav-item">
+                <a href="culture.html" class="nav-link">Life in Berlin</a>
+            </li>
+        </ul>
+    </div>
+  </nav>
 
-    <nav class="navbar navbar-expand-lg navbar-light sticky-top">
-        <a class="navbar-brand" href="index.html">Home</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav">
-              <a class="nav-link" href="costs_of_living.html">Costs of Living</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="basic_paperwork.html">Paperwork</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="finding_apartment.html">Finding apartment</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="public_transport.html">Public transport</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="school_system.html">School system</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="culture.html">Life in Berlin</a>
-              </li>
-          </ul>
+  <section class="container-fluid">
+    <div class="row align-items-center px-0 pt-5">
+      <div class = "col-lg-12">
+        <div id="headingGroup" class="text-light text-center mt-5">
+          <h1>Public transportation in Berlin</h1>
         </div>
-      </nav>
+      </div>
+    </div>
 
-      <main>
-        <div class=" p-4 text-center container">
-            <p>The public transportation in Berlin is safe and affordable. The city has an ectensive network of trains, underground trains, buses and trams. Berlin has also a really good cycling infrastructure and in many parts of the city there is an extensive cycle path network. 
-            </p>
-        </div>
-      </main>
+    <main>
+      <div class=" p-4 text-center container">
+        <p id="intro_costs">The public transportation in Berlin is safe and affordable. The city has an ectensive network of trains, underground trains, buses and trams. Berlin has also a really good cycling infrastructure and in many parts of the city there is an extensive cycle path network.
+        </p>
+      </div>
+    </main>
+
+  </section>
 
       <div>
         <h2>Ticket Fares</h2>    
@@ -76,12 +87,30 @@ The monthly ticket is valid 1 month from the day of purchase or or other date se
             <p>For information please visit <a href= "https://www.berlin.de/en/public-transportation/" target = "_blank">Berlin official website</a> or <a href = "https://www.bvg.de/de" target = "_blank">BVG </a> website.</p>
               </div>
 
- <hr>
-            <footer>
-                <div id="contact-info">Contact</div>
-                <a href="#" class="fa fa-envelope"></a>
-                <a href="#" class="fa fa-instagram"></a>
-              </footer>
+<hr>
+
+<footer>
+  <div id="contact-info">Contact</div>
+    <div class="icon">
+      <a href="mailto:iwona.zdzieblo@gmail.com" target="_blank"><i class="fas fa-envelope center px-2"></i></a>
+      <a href="https://www.instagram.com/inka_z89/" target="_blank"><i class="fab fa-instagram center px-2"></i></a>
+     </div>
+</footer>
+            
+<!-- Optional JavaScript from Bootstrap-->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+            
+  <!-- javaScript to make the navbar change color when scrolling-->
+   <script>
+      $(function () {
+        $(document).scroll(function () {
+          var $nav = $("#mainNavbar");
+             $nav.toggleClass("scrolled", $(this).scrollTop() > $nav.height());
+          });
+        });
+     </script>
     
 </body>
 </html>
