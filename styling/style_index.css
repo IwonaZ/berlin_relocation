@@ -66,6 +66,17 @@ body {
     list-style-type: none;
   }
 
+  .panel-title button{
+      color:#97596e;
+  }
+  .panel-title button:hover{
+    color:#fd3a69;
+}
+
+.panel-body{
+    color:#97596e;  
+}
+
 #mainNavbar {
     font-size: 1.5rem;
     font-weight: 100;    
