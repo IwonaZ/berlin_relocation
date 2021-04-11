@@ -4,93 +4,202 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Culture and social life in Berlin</title>
+    <!-- This is a link to Bootstrap-->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Noto+Serif:wght@400;700&family=Roboto&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">     
+    <!-- This is Google Font-->
+    <link href="https://fonts.googleapis.com/css?family=Nunito:200,300,400,700" rel="stylesheet">
+    <!--This is Font Awesome-->
+    <script src="https://kit.fontawesome.com/b4c9732bdc.js" crossorigin="anonymous"></script>
+    <!-- This is my css-->
     <link href="styling/style_index.css" rel="stylesheet" type="text/css">
 </head>
 <body>
-    <div class="jumbotron-fluid">
-        <div class="container">
-            <h1 class="text-center m-4">Life in Berlin</h1>
-        </div>
+
+  <!--This is navbar-->
+  <nav id="mainNavbar" class="navbar navbar-dark navbar-expand-md py-0 fixed-top">
+    <a href="index.html" class="navbar-brand">Home</a>
+    <button class="navbar-toggler" data-toggle="collapse" data-target="#navLinks" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navLinks">
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a href="costs_of_living.html" class="nav-link">Costs of living</a>
+            </li>
+            <li class="nav-item">
+                <a href="basic_paperwork.html" class="nav-link">Paperwork</a>
+            </li>
+            <li class="nav-item">
+                <a href="finding_apartment.html" class="nav-link">Finding apartment</a>
+            </li>
+            <li class="nav-item">
+                <a href="public_transport.html" class="nav-link">Public transportation</a>
+            </li>
+            <li class="nav-item">
+                <a href="school_system.html" class="nav-link">School System</a>
+            </li>
+            <li class="nav-item">
+                <a href="culture.html" class="nav-link">Life in Berlin</a>
+            </li>
+        </ul>
     </div>
-    <nav class="navbar navbar-expand-lg navbar-light sticky-top">
-        <a class="navbar-brand" href="index.html">Home</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav">
-              <a class="nav-link" href="costs_of_living.html">Costs of Living</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="basic_paperwork.html">Paperwork</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="finding_apartment.html">Finding apartment</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="public_transport.html">Public transportation</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="school_system.html">School system</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="culture.html">Life in Berlin</a>
-              </li>
-          </ul>
+  </nav>
+<!--Header-->
+  <section class="container-fluid">
+    <div class="row align-items-center px-0 pt-5">
+      <div class = "col-lg-12">
+        <div id="headingGroup" class="text-light text-center mt-5">
+          <h1>Life in Berlin</h1>
         </div>
-      </nav>
-      <main>
-          <p>There are tons of blogs about Berlin and life in the capital in Germany. Here you can find some that will give you a different perspectives on the city.
-        </p>
-      </main>
-      <div>
-          <a href="https://www.stilinberlin.de/" target = "_blank">Still in Berlin</a>
-          <p>A great blog about places to go and see, things to do in Berlin, also where to et and wide range of information about the city with some useful insider tips. 
-        </p>
       </div>
-      <div>
-          <a href="https://ceecee.cc/en/" target = "_blank">ceecee.ce</a>
-          <p>This blog gives a good overview events, restaurants, bars and cultural activities. 
-        </p>
+    </div>
+  </section>
+<!--Intro-->
+  <main>
+    <div class=" p-4 text-center container">
+      <p id="intro">There are tons of blogs about Berlin and life in the capital in Germany. Here you can find some that will give you a good idea about the city.
+      </p>
+    </div>
+  </main>
+<!--Main Section-->
+  <section class="container-fluid px-0">
+    <div class="row align-items-center content">
+      <div class="col-md-6">
+        <a href="https://www.stilinberlin.de/" target = "_blank"><img src="images/screenshot1.png" alt="" class="img-fluid pl-0 pl-md-5 screenShot" id="imgMain"></a>
       </div>
-      <div>
-          <a href="https://awesomeberlin.net/" target = "_blank">Awesome Berlin</a>
+      <div class="col-md-6 text-center">
+        <div class="row justify-content-center">
+          <div class="col-10 col-lg-8 part mb-5 mb-md-0">
+            <h2>Stil in Berlin</h2>
+            <p>Berlin's Best Food, Shops, Art & more. 
+            </p>
+            </div>
+        </div>
+      </div>
+    </div>
+    <div class="row align-items-center content">
+      <div class="col-md-6 text-center">
+        <div class="row justify-content-center">
+          <div class="col-10 col-lg-8 part mb-5 mb-md-0">
+            <h2>ceecee.ce</h2>
+            <p>Cee Cee is a weekly email magazine with hand-selected recommendations for Berlin and beyond.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="class=col-md-6">
+        <a href="https://ceecee.cc/en/" target = "_blank"><img src="images/screenshot2.png" alt="" class="img-fluid screenShot" id="imgMain"></a>
+      </div>
+    </div>
+    <div class="row align-items-center content">
+      <div class="col-md-6">
+        <a href="https://awesomeberlin.net/" target = "_blank"><img src="images/screenshot3.png" alt="" class="img-fluid pl-0 pl-md-5 screenShot" id="imgMain"></a>
+      </div>
+      <div class="col-md-6 text-center">
+        <div class="row justify-content-center">
+          <div class="col-10 col-lg-8 part mb-5 mb-md-0">
+            <h2>Awesome Berlin</h2>
           <p>It's a good resource if you're looking for articles about food, culture and lifestyle of Berlin, also gives a good overview of upcoming events and tips on how to explore the city best.
         </p>
+          </div>
+        </div>
       </div>
-      <div>
-          <a href="https://berlinfoodstories.com/" target = "_blank"> Berlin Food Stories</a>
-          <p>It's  a great resource if you're looking for reviews and articles on places to eat in Berlin. 
-        </p>
+    </div>
+    <div class="row align-items-center content">
+      <div class="col-md-6 text-center">
+        <div class="row justify-content-center">
+          <div class="col-10 col-lg-8 part mb-5 mb-md-0">
+            <h2> Berlin Food Stories</h2>
+          <p>A great resource if you're looking for reviews and articles on places to eat in Berlin. 
+          </p>
+          </div>
+        </div>
       </div>
-      <div>
-          <a href="https://www.findingberlin.com/" terget ="_blank">Finding Berlin</a>
-          <p>This blog is about all things in Berlin, from great tips on what to do and where to go to food and different events. 
-        </p>
+      <div class="class=col-md-6">
+        <a href="https://berlinfoodstories.com/" target = "_blank"><img src="images/screenshot4.png" alt="" class="img-fluid screenShot" id="imgMain"></a>
       </div>
-      <div>
-          <a href="https://www.iheartberlin.de/" target="_blank">iHeart Berlin</a>
-          <p>This blog provide a great overview of fashion, art, and different entertainment evnts. 
-        </p>
+    </div>
+    <div class="row align-items-center content">
+      <div class="col-md-6 order-2 order-md-1">
+        <a href="https://www.findingberlin.com/" target ="_blank"><img src="images/screenshot5.png" alt="" class="img-fluid pl-0 pl-md-5 screenShot" id="imgMain"></a>
       </div>
-      <div>
-          <a href="https://mitvergnuegen.com/">Mit Vergnügen Berlin</a>
-          <p>An independent locat travel and guide blog about Berlin. 
-        </p>
+      <div class="col-md-6 text-center order-1 order-md-2">
+        <div class="row justify-content-center">
+          <div class="col-10 col-lg-8 part mb-5 mb-md-0">
+            <h2>Finding Berlin</h2>
+            <p>A personal blog about life, food and culture in Berlin.
+            </p>
+          </div>
+        </div>
       </div>
-      <div>
-          <a href="https://berlin-ick-liebe-dir.de/" target="_blank">Berlin ick lieve dir</a>
-          <p>Everything you need to know about Restaurants, Bars, Cafés, Events in Berlin.</p>
+    </div>
+    <div class="row align-items-center content">
+      <div class="col-md-6 text-center">
+        <div class="row justify-content-center">
+          <div class="col-10 col-lg-8 part mb-5 mb-md-0">
+            <h2>iHeart Berlin</h2>
+            <p>This blog provide a great overview of fashion, art, and many more different evnts. 
+            </p>
+          </div>
+        </div>
       </div>
+      <div class="class=col-md-6">
+        <a href="https://www.iheartberlin.de/" target="_blank"><img src="images/screenshot6.png" alt="" class="img-fluid screenShot" id="imgMain"></a>
+      </div>
+    </div>
+    <div class="row align-items-center content">
+      <div class="col-md-6 order-2 order-md-1">
+        <a href="https://mitvergnuegen.com/" target="_blank"><img src="images/screenshot7.png" alt="" class="img-fluid pl-0 pl-md-5 screenShot" id="imgMain"></a>
+      </div>
+      <div class="col-md-6 text-center order-1 order-md-2">
+        <div class="row justify-content-center">
+          <div class="col-10 col-lg-8 part mb-5 mb-md-0">
+            <h2>Mit Vergnügen Berlin</h2>
+            <p>An independent locat travel and guide blog about Berlin. 
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row align-items-center content">
+      <div class="col-md-6 text-center">
+        <div class="row justify-content-center">
+          <div class="col-10 col-lg-8 part mb-5 mb-md-0">
+            <h2>Berlin ick liebe dir</h2>
+          <p>A blog with insider tips on restaurants, bars, cafés, events, films.</p>
+          </div>
+        </div>
+      </div>
+      <div class="class=col-md-6">
+        <a href="https://berlin-ick-liebe-dir.de/" target="_blank"><img src="images/screenshot8.png" alt="" class="img-fluid screenShot" id="imgMain"></a>
+      </div>
+    </div>
+  </section>
+
+      <hr>
+
       <footer>
         <div id="contact-info">Contact</div>
-        <a href="#" class="fa fa-envelope"></a>
-        <a href="#" class="fa fa-instagram"></a>
-    </footer>
+          <div class="icon">
+            <a href="mailto:iwona.zdzieblo@gmail.com" target="_blank"><i class="fas fa-envelope center px-2"></i></a>
+            <a href="https://www.instagram.com/inka_z89/" target="_blank"><i class="fab fa-instagram center px-2"></i></a>
+          </div>
+      </footer>
+    
+          <!-- Optional JavaScript from Bootstrap-->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    
+        <!-- javaScript to make the navbar change color when scrolling-->
+        <script>
+          $(function () {
+              $(document).scroll(function () {
+                  var $nav = $("#mainNavbar");
+                  $nav.toggleClass("scrolled", $(this).scrollTop() > $nav.height());
+              });
+          });
+      </script>
+
 </body>
 </html>
