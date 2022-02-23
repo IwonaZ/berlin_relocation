@@ -47,7 +47,11 @@ body {
   font-size: 1.4rem;
 }
 
-#imgMain {
+#imgMain,
+#imgPaperwork,
+#imgTransport,
+#imgTransport2,
+#imgSchool {
   height: auto;
   max-width: 100%;
   border-radius: 8px;
@@ -261,5 +265,54 @@ hr {
   }
   .part h2 {
     font-size: 2rem;
+  }
+}
+
+@media (max-width: 820px) {
+  #mainNavbar {
+    font-weight: 300;
+    font-size: 20px;
+  }
+
+  .text-explain {
+    display: none;
+  }
+
+  #imgMain {
+    border-radius: 0px;
+    width: 80%;
+    height: auto;
+  }
+  #imgPaperwork {
+    display: none;
+  }
+  #imgTransport2 {
+    display: none;
+  }
+  #imgSchool {
+    display: none;
+  }
+}
+
+@media (max-width: 400px) {
+  .navbar button.navbar-toggler {
+    color: #ea1c2c;
+  }
+  #remove-on-mobile {
+    display: none;
+  }
+  #quote-small-size {
+    font-size: 12px;
+  }
+
+  #imgMain {
+    margin-bottom: 25px;
+  }
+  #imgTransport {
+    display: none;
+  }
+
+  #margin-mobile {
+    margin-bottom: 6em;
   }
 }
